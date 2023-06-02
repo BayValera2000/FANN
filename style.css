@@ -1,0 +1,21 @@
+header{
+    background-image: url("images/image 1.png");
+    height: 800px;
+}
+.header-container{
+    width: 1408px;
+}
+div.elements, div.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.elements{
+    justify-content: space-between;
+}
+div.elements > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
